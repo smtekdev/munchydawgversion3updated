@@ -56,7 +56,7 @@
   --text-white: #ffffff;
   --text-black: #000000;
   --bg-white: #ffffff;
-  --bg-skin:#f8f6f4;
+  --bg-skin: #f8f6f4;
   --dark-black: #323232;
   --more-dark-black: #1b1b1b;
   --primary-red: #c42900;
@@ -1557,7 +1557,7 @@ header.fixed::before {
   bottom: -2px;
 }
 
-.bredcrumb_section .ovelay_bg img{
+.bredcrumb_section .ovelay_bg img {
   width: 100%;
 }
 
@@ -1818,7 +1818,7 @@ footer .offer_block h2 {
   font-size: 40px;
 }
 
-footer .ovelay_bg img{
+footer .ovelay_bg img {
   width: 100%;
 }
 
@@ -2193,7 +2193,7 @@ iframe#youtubevideo {
   padding-bottom: 150px;
   position: relative;
 
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/about_banner.png);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/back1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -3062,7 +3062,7 @@ iframe#youtubevideo {
 
 .bredcrumb_section.contact_banner {
   position: relative;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/contact_banner.png);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/kiddeal2.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -3406,7 +3406,7 @@ iframe#youtubevideo {
   color: var(--text-black);
 }
 
-.blog_list_section .blog_right_side .categories_block ul li .cat span{
+.blog_list_section .blog_right_side .categories_block ul li .cat span {
   color: var(--text-black);
 }
 
@@ -3790,7 +3790,7 @@ iframe#youtubevideo {
   padding: 40px 50px;*/
 }
 
-.comment_section .blog_cooment_block h2{
+.comment_section .blog_cooment_block h2 {
   font-size: 35px;
 }
 
@@ -3906,10 +3906,10 @@ iframe#youtubevideo {
 }
 
 .banner_section.second_banner .ovelay_bg {
-	position: absolute;
-	bottom: -41px !important;
-	width: 100%;
-	z-index: 100;
+  position: absolute;
+  bottom: -41px !important;
+  width: 100%;
+  z-index: 100;
 }
 
 .banner_section.second_banner .ovelay_bg img {
@@ -4285,7 +4285,7 @@ iframe#youtubevideo {
 }
 
 .our_menu_section .dish_box .dish_info .dish_text a .cart_btn {
-	display: none;
+  display: none;
   font-size: 16px;
   color: var(--primary-red);
   font-family: var(--font-rowdies);
@@ -4301,7 +4301,7 @@ iframe#youtubevideo {
   border-radius: 100px;
   padding: 4px 6px;
   text-align: right;
-  transition: all ease-in-out 0.3s; 
+  transition: all ease-in-out 0.3s;
 }
 
 /* -------Discount Section Css Start-------- */
@@ -4320,7 +4320,7 @@ iframe#youtubevideo {
   z-index: 100;
 }
 
-.discount_section .ovelay_bg img{
+.discount_section .ovelay_bg img {
   width: 100%;
 }
 
@@ -4445,7 +4445,7 @@ iframe#youtubevideo {
 
 
 .popular_dish_section .side_shape {
-	/*display: none;*/
+  /*display: none;*/
 }
 
 .popular_dish_section .side_shape .right_side {
@@ -4622,7 +4622,7 @@ iframe#youtubevideo {
   border-radius: 20px;
   position: relative;
 
- }
+}
 
 .testimonial_section .testimonial_wraper::before {
   content: "";
@@ -4859,45 +4859,45 @@ iframe#youtubevideo {
 
 /* App button */
 .app_section .app_btn {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 /* App button list */
 .app_section .app_btn li a {
-    display: block;
-    padding: 12px 30px;
-    background-color: var(--bg-white);
-    position: relative;
-    border-radius: 12px;
-    transition: .4s all;
+  display: block;
+  padding: 12px 30px;
+  background-color: var(--bg-white);
+  position: relative;
+  border-radius: 12px;
+  transition: .4s all;
 }
 
 .app_section .app_btn li:last-child {
-    margin-left: 25px;
+  margin-left: 25px;
 }
 
 .app_section .app_btn li a img {
-    transition: .4s all;
+  transition: .4s all;
 }
 
 .app_section .app_btn li a .white_img {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
 }
 
 .app_section .app_btn li a:hover {
-    background-color: var(--black);
+  background-color: var(--black);
 }
 
 .app_section .app_btn li a:hover .blue_img {
-    opacity: 0;
+  opacity: 0;
 }
 
 .app_section .app_btn li a:hover .white_img {
-    opacity: 1;
+  opacity: 1;
 }
 
 
@@ -5024,4 +5024,3 @@ iframe#youtubevideo {
 .banner_card_section .blog_card:hover:after {
   /*animation: 4s cfs-glimmer infinite;*/
 }
-
